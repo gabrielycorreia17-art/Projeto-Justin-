@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bieber</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b15df, #f200ff);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #740184;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00c8ff;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            color: #1717a8;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .inicio {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .inicio img {
+            width: 45%;
+            border-radius: 15px;
+        }
+
+        .inicio-texto {
+            width: 55%;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #8d33fa;
+            margin-bottom: 10px;
+        }
+
+        .atividade {
+            background: #e8f4ff;
+            border-left: 6px solid #570076;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .atividade h3 {
+            color: #6f04a5;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .inicio {
+                flex-direction: column;
+            }
+
+            .inicio img,
+            .inicio-texto {
+                width: 100%;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Justin Bieber</h1>
+   
+</header>
+
+<nav>
+    <a href="#Sobre ele">Sobre ele</a>
+    <a href="#Álbuns">Álbuns</a>
+    <a href="#Músicas">Músicas</a>
+    <a href="#Outros Albuns">Outros Albuns</a>
+</nav>
+
+<section id="inicio">
+
+    <div class="inicio">
+
+        <img src="bieber.webp"
+             alt="Estudantes utilizando computadores">
+
+        <div class="inicio-texto">
+            <h2>Sobre ele</h2>
+
+            <p>
+                
+                
+                Justin Bieber é um cantor, compositor e músico canadense, nascido em 1º de março de 1994, em London, Ontário, Canadá.
+                
+                Ele ficou famoso ainda adolescente depois que vídeos de suas apresentações foram publicados no YouTube. O empresário Scooter Braun descobriu seu talento e o ajudou a iniciar sua carreira profissional. Em 2009, Bieber lançou seu primeiro EP, My World, que rapidamente alcançou grande sucesso.
+                
+                Entre suas músicas mais conhecidas estão “Baby”, “Sorry”, “Love Yourself”, “What Do You Mean?”, “Peaches” e “Stay”. Ao longo da carreira, lançou álbuns de grande sucesso, como My World 2.0 (2010), Believe (2012), Purpose (2015), Changes (2020) e Justice (2021).
+                
+                Bieber também recebeu diversos prêmios importantes, incluindo Grammy Awards, American Music Awards e Billboard Music Awards. Sua carreira é marcada por uma grande transformação: começou como um ídolo adolescente e, com o passar dos anos, passou a explorar temas mais maduros em sua música.
+                
+                Em sua vida pessoal, Justin Bieber se casou com Hailey Baldwin Bieber em 2018. O casal teve seu primeiro filho, Jack Blues Bieber, em 2024.
+                
+                Atualmente, Justin Bieber é considerado um dos artistas pop mais influentes de sua geração, com milhões de fãs ao redor do mundo e uma carreira que já dura mais de uma década.
+                
+                
+                
+                
+                
+            </p>
+
+            <br>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+<section id="conteudos">
+
+    <h2>Álbuns</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="images (1).jpeg"
+                 alt="Tecnologia">
+            <h3>Justice</h3>
+            <p>
+                Justice é o sexto álbum de estúdio de Justin Bieber, lançado em 2021. O álbum mistura pop, R&B e elementos eletrônicos, abordando temas como amor, esperança, fé e relacionamentos. Entre os destaques estão “Peaches”, “Anyone” e “Hold On”.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="images.jpeg"
+                 alt="Programação">
+            <h3>👨 My world 2.0</h3>
+            <p>
+                My World 2.0 é o primeiro álbum de estúdio de Justin Bieber, lançado em 2010. O álbum apresenta um estilo pop e R&B, com músicas que falam principalmente sobre amor, relacionamentos e experiências da adolescência. Entre seus maiores sucessos estão “Baby”, “Somebody to Love” e “U Smile”.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="images (3).jpeg"
+                 alt="Internet">
+            <h3>Swag</h3>
+            <p>
+                Swag é o sétimo álbum de estúdio de Justin Bieber, lançado em 2025. O álbum apresenta uma sonoridade mais madura, misturando pop e R&B, e traz temas relacionados ao amor, à vida pessoal e à família. Entre as faixas de destaque estão “Daisies”, “Yukon” e “Go Baby”.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="images (2).jpeg"
+                 alt="Segurança digital">
+            <h3>Journals</h3>
+            <p>
+                Journals é uma coletânea de Justin Bieber lançada em 2013. O projeto apresenta uma sonoridade mais madura, com forte influência de R&B e hip-hop, explorando temas como amor, relacionamentos e términos. Entre os destaques estão “All That Matters”, “Confident” e “Heartbreaker”.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="seguranca">
+
+    <h2>Músicas</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Peaches</h3>
+            <p>
+                Done being distracted
+                The one I need is right in my arms (oh)
+                Your kisses taste the sweetest, with mine
+                And I'll be right here with you 'til the end of time
+            </p>
+        </div>
+
+        <div class="card">
+            <h3> Baby</h3>
+            <p>
+                You can give all of your love
+                But sometimes it just ain't enough
+                Never told me this day would come
+                Now I'm all gone
+                Baby, baby, baby, oh
+                Like baby, baby, baby, no
+                Like baby, baby, baby, oh
+                I thought you'd always be mine, mine
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>That Should Be Me</h3>
+            <p>
+                That should be me holdin' your hand
+                That should be me makin' you laugh (yeah)
+                That should be me, this is so sad
+                That should be me, that should be me (ooh)
+                That should be me feelin' your kiss (feelin' your kiss)
+                That should be me buyin' you gifts (buyin' you gifts)
+                This is so wrong, I can't go on (I can't go on)
+                Till you believe that that should be me
+                That should be me (mm, ooh)
+                
+                
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Journals</h3>
+            <p>
+                She said it's her first time (oh, yeah, yeah)
+                I think she might have lied
+                Feels so good, damn (oh, yeah, yeah), and I don't know why
+                I'm addicted (oh, yeah, yeah), something like an addict
+                Got me twisted (oh, yeah, yeah)
+                But still I gotta have it
+                
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="Outros Albuns">
+
+    <h2>Outros Albuns</h2>
+
+    <div class="atividade">
+        <h3>Purpose</h3>
+        <p>
+            Um dos álbuns mais importantes da carreira dele. Traz um som mais eletrônico e dançante e aborda temas de amor, erros, crescimento pessoal e propósito. Inclui “Sorry”, “Love Yourself” e “What Do You Mean?”.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3> Changes </h3>
+        <p>
+            É um álbum mais focado em amor e relacionamento. O som mistura pop e R&B, com letras mais íntimas sobre sua vida amorosa. A principal música é “Yummy”, além de “Intentions” e “Anyone”.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3>Belive </h3>
+        <p>
+            Mostra Justin tentando deixar para trás a imagem de adolescente e adotando um som mais maduro, com elementos de pop, R&B e dance. Destaques: “Boyfriend”, “As Long as You Love Me” e “Beauty and a Beat”.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3>Under the Mistletoe</h3>
+        <p>
+            Primeiro álbum natalino de Justin. Mistura músicas tradicionais de Natal com faixas pop, incluindo “Mistletoe” e “Santa Claus Is Coming to Town”.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>Gabriely Correia – 1º Ano  B do Ensino Médio</p>
+    <p>Aprender tecnologia é também aprender a utilizá-la com responsabilidade.</p>
+</footer>
+
+</body>
+</html>
